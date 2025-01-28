@@ -1,0 +1,3 @@
+wafi,wafi@stud.kuet.ac.bd,CSE,2023,Manager,KUET,Dhaka,23,1,married,1212122,0,wafi123
+wafi,wafi2@stud.kuet.ac.bd,EEE,2030,Manager,KUET,Dhaka,23,1,Married,12121212,0,wafi321
+ripti,ripti@stud.kuet.ac.bd,MSE,2022,manager,IUBAT,America,23,0,unmarried,1232123,0,ripti123
