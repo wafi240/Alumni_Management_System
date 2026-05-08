@@ -1,6 +1,56 @@
-Discussion :
-In this project, Alumni Management System, we made a program that manages the information of the alumni of Khulna University of Engineering and Technology. This project will help students form a stronger connection with their seniors of the institute by learning more about them and learning from them. Though at this stage we've only made it to work for the students and graduates of KUET, the system can easily be expanded to include other universities of Bangladesh.
-The system allows for 3 different types of user, separated into 3 segments. It incorporates a login system, with a secure password module that restricts access to alumni details, ensuring data security while also preventing password peeping. Additionally, we've added job and event modules so that users can seamlessly track what job postings are available and which events alumni are participating in and other relevant information. We've also added sorting and profile editing to make the system more useful.
-This project is similar to other management systems, but the idea to implement it with alumni is novel. Usage of efficient memory management and real-time event/job tracking make for a smooth, fast and interactive experience for the user and makes our project stand out from the rest.
-While working on this project we faced some difficulties. Making the memory management efficient took a lot of trial and error to finally get working. Parsing through the file was also difficult as when it was implemented, it was a relatively new topic for us. The code to check the email and masking password were the most difficult to write. Debugging the project also took quite some time. While, if the user uses this project properly, no problems will be created, that is rarely the case, and to account for wrong inputs, we had to write some additional code.
-Regardless, our project is not flawless by any means and can be improved upon. We were not able to implement hyperlinking which would make traversing from one part of the system to the other easier and more intuitive for the user and reduce the usage of switch cases. Using graphics would also make the system more pleasant for the user. Systems like question-answer can also be added. But, since our project is modular by nature, it is a breeze to work on, maintain and expand upon the project, so all of these systems can be added in the future. We could also implement a mobile app interface for the system.
+# Discussion
+
+The **Alumni Management System** is a project designed to manage and organize alumni information for **Khulna University of Engineering & Technology (KUET)**. The main goal of this system is to help current students build stronger connections with alumni by learning about their careers, achievements, experiences, and opportunities.
+
+Although the current version is focused on KUET students and graduates, the system has been designed in a modular and scalable way so it can easily be expanded for other universities across Bangladesh in the future.
+
+## Features
+
+The system supports **three different types of users**, divided into separate access segments. To ensure security and privacy, we implemented:
+
+* Secure login and authentication system
+* Password masking to prevent password peeking
+* Restricted access to alumni information
+* Profile editing and account management
+* Sorting and searching functionality
+* Job posting and event tracking modules
+
+The job and event modules allow users to stay updated with alumni activities, career opportunities, and upcoming events in real time, creating a more interactive and engaging experience.
+
+## What Makes This Project Unique
+
+While many management systems already exist, implementing one specifically focused on alumni networking and interaction is relatively uncommon. Our project combines:
+
+* Efficient memory management
+* Real-time data handling
+* Modular architecture
+* User-friendly interaction system
+
+These features help provide a smooth, responsive, and maintainable system.
+
+## Challenges We Faced
+
+Developing this project came with several challenges:
+
+* Optimizing memory management required multiple revisions and experimentation
+* File parsing was difficult since it was a relatively new concept for us
+* Implementing email validation and password masking logic was particularly challenging
+* Debugging and handling unexpected user inputs took significant effort
+
+To ensure system stability, we also added additional validation and error-handling mechanisms to account for invalid or unintended user actions.
+
+## Future Improvements
+
+Although the project is functional, there are still many opportunities for improvement:
+
+* Adding hyperlink-based navigation for a more intuitive user experience
+* Implementing graphical user interfaces (GUI)
+* Introducing question-answer or mentorship features
+* Developing a mobile application interface
+* Reducing dependency on large switch-case structures
+
+Because the system is modular by design, it can be easily maintained, upgraded, and expanded in the future.
+
+## Conclusion
+
+Overall, this project gave us valuable experience in problem-solving, file handling, memory management, debugging, and software design. The Alumni Management System is a strong foundation that can evolve into a larger platform connecting students and alumni across universities in Bangladesh.
